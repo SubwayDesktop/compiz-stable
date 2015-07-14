@@ -1,0 +1,11 @@
+--- a/configure.ac
++++ b/configure.ac
+@@ -517,7 +517,7 @@ if test "x$use_kde4" = "xyes"; then
+ 
+   if test -d "$kde4libs"; then
+     PKG_CHECK_MODULES(KDE4_WINDOW_DECORATOR,
+-		      dbus-1 xdamage xext xcomposite QtCore >= 4.5.0 QtGui QtDBus,
++		      dbus-1 x11 xdamage xext xcomposite QtCore >= 4.5.0 QtGui QtDBus,
+ 			[use_kde4=yes], [use_kde4=no])
+ 
+     KDE4_CFLAGS="-I$kde4incs"

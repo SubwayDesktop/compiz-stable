@@ -1,0 +1,6 @@
+prefix=/usr/local
+xsltdir=${prefix}/share/compiz
+
+Name: compiz-gconf
+Description: GConf plugin for compiz
+Version: 0.8.6

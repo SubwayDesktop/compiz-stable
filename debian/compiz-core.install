@@ -1,0 +1,6 @@
+usr/bin/compiz*
+usr/share/compiz/*.png
+usr/share/compiz/core.xml
+usr/share/locale
+usr/share/applications/compiz.desktop
+usr/share/apport

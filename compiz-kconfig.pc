@@ -1,0 +1,7 @@
+prefix=/usr/local
+xsltdir=${prefix}/share/compiz
+kcfgdir=
+
+Name: compiz-kconfig
+Description: Kconfig plugin for compiz
+Version: 0.8.6
